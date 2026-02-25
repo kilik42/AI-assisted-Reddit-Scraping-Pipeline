@@ -1,0 +1,9 @@
+pip install rav
+
+rav run notebook  -- run this for jupyter notebook
+
+jupyter notebook -- traditional method
+
+source env/Scripts/activate -- windows
+
+curl https://api.brightdata.com/request -H "Content-Type: application/json" -H "Authorization: Bearer [replace with API Key]" -d "{\"zone\": \"serp_api3\",\"url\": \"https://www.google.com/search?q=pizza\", \"format\": \"raw\"}"
